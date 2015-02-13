@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\University\Subjects\ECE 135\Quartus_Verilog\UpDownCounter\simulation\modelsim
+vUpDownCounter_8bit
+!i10b 1
+!s100 8P1ZA_@N=OKkVTcVi[lI:1
+IYE33Llk9j8<;eMgd`oJO80
+VN2z5aJAW50]dKNPZ7KZ9Q1
+Z1 dD:\University\Subjects\ECE 135\Quartus_Verilog\UpDownCounter\simulation\modelsim
+w1406854811
+8UpDownCounter_8bit.vo
+FUpDownCounter_8bit.vo
+L0 31
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1406854840.249000
+!s107 UpDownCounter_8bit.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|UpDownCounter_8bit.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+n@up@down@counter_8bit

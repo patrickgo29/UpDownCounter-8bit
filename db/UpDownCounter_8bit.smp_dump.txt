@@ -1,0 +1,10 @@
+
+State Machine - |UpDownCounter_8bit|next
+Name next.DOWN 
+next.UP 0 
+next.DOWN 1 
+
+State Machine - |UpDownCounter_8bit|state
+Name state.DOWN 
+state.RESET 0 
+state.DOWN 1 

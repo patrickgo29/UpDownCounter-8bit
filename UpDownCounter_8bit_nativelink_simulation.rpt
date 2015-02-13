@@ -1,0 +1,211 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneivgx
+Quartus root          :  c:/altera/13.0sp1/quartus/bin/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  UpDownCounter_8bit.vo
+Sim SDF file          :  UpDownCounter_8bit__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File UpDownCounter_8bit_run_msim_gate_verilog.do already exists - backing up current file as UpDownCounter_8bit_run_msim_gate_verilog.do.bak4
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do UpDownCounter_8bit_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {UpDownCounter_8bit.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module UpDownCounter_8bit
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	UpDownCounter_8bit
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/University/Subjects/ECE\ 135/Quartus_Verilog/UpDownCounter {D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit_tb.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module UpDownCounter_8bit_tb
+ModelSim-Altera Error: # ** Error: D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit_tb.v(55): near "end": syntax error, unexpected end, expecting ';'
+ModelSim-Altera Error: # ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+ModelSim-Altera Info: # Error in macro ./UpDownCounter_8bit_run_msim_gate_verilog.do line 10
+ModelSim-Altera Info: # C:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+ModelSim-Altera Info: #     while executing
+ModelSim-Altera Info: # "vlog -vlog01compat -work work +incdir+D:/University/Subjects/ECE\ 135/Quartus_Verilog/UpDownCounter {D:/University/Subjects/ECE 135/Quartus_Verilog/Up..."
+ModelSim-Altera Info: vsim work.UpDownCounter_8bit
+ModelSim-Altera Info: # vsim work.UpDownCounter_8bit 
+ModelSim-Altera Info: # Loading work.UpDownCounter_8bit
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(103): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(122): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(135): Instantiation of 'cycloneiv_io_obuf' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(148): Instantiation of 'cycloneiv_io_obuf' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(161): Instantiation of 'cycloneiv_io_obuf' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(174): Instantiation of 'cycloneiv_io_obuf' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(187): Instantiation of 'cycloneiv_io_obuf' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(205): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(215): Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(225): Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(238): Instantiation of 'cycloneiv_clkctrl' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(255): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(272): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(289): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(308): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(325): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(342): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(359): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(376): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(393): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(410): Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) UpDownCounter_8bit.vo(420): Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /UpDownCounter_8bit
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/simulation/modelsim/gate_work
+ModelSim-Altera Info: # Error loading design
+ModelSim-Altera Info: vlog -reportprogress 300 -work work {D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit_tb.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module UpDownCounter_8bit_tb
+ModelSim-Altera Error: # ** Error: D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit_tb.v(55): near "end": syntax error, unexpected end, expecting ';'
+ModelSim-Altera Info: vlog -reportprogress 300 -work work {D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit_tb.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module UpDownCounter_8bit_tb
+ModelSim-Altera Error: # ** Error: D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit_tb.v(55): near "end": syntax error, unexpected end, expecting ';'
+Error: Errors encountered while running modelsim do file
+Error: NativeLink simulation flow was NOT successful
+
+
+
+================The following additional information is provided to help identify the cause of error while running nativelink scripts=================
+Nativelink TCL script failed with errorCode:  1
+Nativelink TCL script failed with errorInfo:  1
+    (procedure "launch_sim" line 1)
+    invoked from within
+"launch_sim launch_args_hash"
+    ("eval" body line 1)
+    invoked from within
+"eval launch_sim launch_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set savedInfo $::errorInfo
+				error $result $savedInfo $savedCode
+			} else {
+			..."
+    invoked from within
+"if [catch {eval launch_sim launch_args_hash} result ] {
+			set status 1
+			if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set sav..."
+    (procedure "run_sim" line 78)
+    invoked from within
+"run_sim run_sim_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+			set savedCode $::errorCode
+			set savedInfo $::errorInfo
+			error "$result" $savedInfo $savedCode
+		} else {
+			er..."
+    (procedure "run_eda_simulation_tool" line 330)
+    invoked from within
+"run_eda_simulation_tool eda_opts_hash"

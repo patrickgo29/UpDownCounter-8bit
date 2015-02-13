@@ -1,0 +1,13 @@
+module UpDownCounter_Example
+(
+	input wire reset,
+	input wire enable,
+	input wire clk,
+	output [4:0] count
+);
+
+	defparam C1.max = 30;
+	UpDownCounter C1(reset,enable,clk,count);
+
+endmodule
+

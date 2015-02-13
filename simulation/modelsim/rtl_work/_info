@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\University\Subjects\ECE 135\Quartus_Verilog\UpDownCounter\simulation\modelsim
+vUpDownCounter_8bit
+I>66O7[AP8L[<[hSgDMZC>1
+VN2z5aJAW50]dKNPZ7KZ9Q1
+Z1 dD:\University\Subjects\ECE 135\Quartus_Verilog\UpDownCounter\simulation\modelsim
+w1406183474
+8D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit.v
+FD:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit.v
+L0 21
+Z2 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+n@up@down@counter_8bit
+!i10b 1
+!s100 WLX^b>[;7D>76HA:zCCYX2
+!s85 0
+!s108 1406210453.963000
+!s107 D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter|D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit.v|
+!s101 -O0
+!s92 -vlog01compat -work work {+incdir+D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter} -O0
+vUpDownCounter_8bit_tb
+!i10b 1
+!s100 KUzhVbe`jFhkhG^H<7Bm`3
+IFXflgDIz433:XCEBBQl=P0
+VbL4De<EA=]_U[=[Go3iD`2
+R1
+w1406210037
+8D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit_tb.v
+FD:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit_tb.v
+L0 25
+R2
+r1
+!s85 0
+31
+!s108 1406210473.138000
+!s107 D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit_tb.v|
+!s90 -reportprogress|300|-work|work|D:/University/Subjects/ECE 135/Quartus_Verilog/UpDownCounter/UpDownCounter_8bit_tb.v|
+!s101 -O0
+o-work work -O0
+n@up@down@counter_8bit_tb

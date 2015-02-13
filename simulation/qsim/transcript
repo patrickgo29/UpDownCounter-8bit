@@ -1,0 +1,157 @@
+# do UpDownCounter_8bit.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module UpDownCounter_8bit
+# 
+# Top level modules:
+# 	UpDownCounter_8bit
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module UpDownCounter_8bit_vlg_sample_tst
+# -- Compiling module UpDownCounter_8bit_vlg_check_tst
+# -- Compiling module UpDownCounter_8bit_vlg_vec_tst
+# 
+# Top level modules:
+# 	UpDownCounter_8bit_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.UpDownCounter_8bit_vlg_vec_tst 
+# Loading work.UpDownCounter_8bit_vlg_vec_tst
+# Loading work.UpDownCounter_8bit
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.UpDownCounter_8bit_vlg_sample_tst
+# Loading work.UpDownCounter_8bit_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ERROR! Vector Mismatch for output port count[0] :: @time = 15000.000 ps
+#      Expected value = 00001
+#      Real value = 00000
+# ERROR! Vector Mismatch for output port count[1] :: @time = 25000.000 ps
+#      Expected value = 00010
+#      Real value = 00000
+# ERROR! Vector Mismatch for output port count[1] :: @time = 45000.000 ps
+#      Expected value = 00100
+#      Real value = 00010
+# ERROR! Vector Mismatch for output port count[2] :: @time = 45000.000 ps
+#      Expected value = 00100
+#      Real value = 00010
+# ERROR! Vector Mismatch for output port count[1] :: @time = 65000.000 ps
+#      Expected value = 00110
+#      Real value = 00100
+# ERROR! Vector Mismatch for output port count[3] :: @time = 85000.000 ps
+#      Expected value = 01000
+#      Real value = 00000
+# ERROR! Vector Mismatch for output port count[4] :: @time = 165000.000 ps
+#      Expected value = 10000
+#      Real value = 00000
+# ERROR! Vector Mismatch for output port count[1] :: @time = 325000.000 ps
+#      Expected value = 00000
+#      Real value = 01110
+# ERROR! Vector Mismatch for output port count[2] :: @time = 325000.000 ps
+#      Expected value = 00000
+#      Real value = 01110
+# ERROR! Vector Mismatch for output port count[3] :: @time = 325000.000 ps
+#      Expected value = 00000
+#      Real value = 01110
+# ERROR! Vector Mismatch for output port count[1] :: @time = 345000.000 ps
+#      Expected value = 00010
+#      Real value = 01100
+# ERROR! Vector Mismatch for output port count[1] :: @time = 365000.000 ps
+#      Expected value = 00100
+#      Real value = 01010
+# ERROR! Vector Mismatch for output port count[2] :: @time = 365000.000 ps
+#      Expected value = 00100
+#      Real value = 01010
+# ERROR! Vector Mismatch for output port count[1] :: @time = 505000.000 ps
+#      Expected value = 10010
+#      Real value = 01000
+# ERROR! Vector Mismatch for output port count[2] :: @time = 515000.000 ps
+#      Expected value = 10011
+#      Real value = 00111
+# ERROR! Vector Mismatch for output port count[1] :: @time = 525000.000 ps
+#      Expected value = 10100
+#      Real value = 00110
+# ERROR! Vector Mismatch for output port count[1] :: @time = 545000.000 ps
+#      Expected value = 10110
+#      Real value = 00100
+# ERROR! Vector Mismatch for output port count[2] :: @time = 555000.000 ps
+#      Expected value = 10111
+#      Real value = 00011
+# ERROR! Vector Mismatch for output port count[1] :: @time = 565000.000 ps
+#      Expected value = 11000
+#      Real value = 00010
+# ERROR! Vector Mismatch for output port count[3] :: @time = 565000.000 ps
+#      Expected value = 11000
+#      Real value = 00010
+# ERROR! Vector Mismatch for output port count[1] :: @time = 585000.000 ps
+#      Expected value = 11010
+#      Real value = 00000
+# ERROR! Vector Mismatch for output port count[1] :: @time = 605000.000 ps
+#      Expected value = 11100
+#      Real value = 00010
+# ERROR! Vector Mismatch for output port count[1] :: @time = 625000.000 ps
+#      Expected value = 11110
+#      Real value = 00100
+# ERROR! Vector Mismatch for output port count[1] :: @time = 645000.000 ps
+#      Expected value = 00000
+#      Real value = 00110
+# ERROR! Vector Mismatch for output port count[2] :: @time = 645000.000 ps
+#      Expected value = 00000
+#      Real value = 00110
+# ERROR! Vector Mismatch for output port count[1] :: @time = 665000.000 ps
+#      Expected value = 00010
+#      Real value = 01000
+# ERROR! Vector Mismatch for output port count[3] :: @time = 665000.000 ps
+#      Expected value = 00010
+#      Real value = 01000
+# ERROR! Vector Mismatch for output port count[1] :: @time = 685000.000 ps
+#      Expected value = 00100
+#      Real value = 01010
+# ERROR! Vector Mismatch for output port count[2] :: @time = 685000.000 ps
+#      Expected value = 00100
+#      Real value = 01010
+# ERROR! Vector Mismatch for output port count[1] :: @time = 705000.000 ps
+#      Expected value = 00110
+#      Real value = 01100
+# ERROR! Vector Mismatch for output port count[1] :: @time = 725000.000 ps
+#      Expected value = 01000
+#      Real value = 01110
+# ERROR! Vector Mismatch for output port count[2] :: @time = 725000.000 ps
+#      Expected value = 01000
+#      Real value = 01110
+# ERROR! Vector Mismatch for output port count[1] :: @time = 755000.000 ps
+#      Expected value = 01011
+#      Real value = 01101
+# ERROR! Vector Mismatch for output port count[1] :: @time = 775000.000 ps
+#      Expected value = 01101
+#      Real value = 01011
+# ERROR! Vector Mismatch for output port count[2] :: @time = 775000.000 ps
+#      Expected value = 01101
+#      Real value = 01011
+# ERROR! Vector Mismatch for output port count[1] :: @time = 795000.000 ps
+#      Expected value = 01111
+#      Real value = 01001
+# ERROR! Vector Mismatch for output port count[1] :: @time = 845000.000 ps
+#      Expected value = 10100
+#      Real value = 00010
+# ERROR! Vector Mismatch for output port count[1] :: @time = 865000.000 ps
+#      Expected value = 10110
+#      Real value = 00100
+# ERROR! Vector Mismatch for output port count[1] :: @time = 885000.000 ps
+#      Expected value = 11000
+#      Real value = 00110
+# ERROR! Vector Mismatch for output port count[2] :: @time = 885000.000 ps
+#      Expected value = 11000
+#      Real value = 00110
+# ERROR! Vector Mismatch for output port count[3] :: @time = 885000.000 ps
+#      Expected value = 11000
+#      Real value = 00110
+# ERROR! Vector Mismatch for output port count[0] :: @time = 905000.000 ps
+#      Expected value = 11010
+#      Real value = 00111
+#          42 mismatched vectors : Simulation failed !
+# ** Note: $finish    : UpDownCounter_8bit.vt(245)
+#    Time: 1 us  Iteration: 0  Instance: /UpDownCounter_8bit_vlg_vec_tst/tb_out

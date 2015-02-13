@@ -1,0 +1,63 @@
+`timescale 1ns / 1ps
+
+
+module UpDownCounter_8bit_tb;
+
+	// Inputs
+	reg reset;
+	reg enable;
+	reg clk;
+
+	// Outputs
+	wire [4:0] count;
+
+	// Instantiate the Unit Under Test (UUT)
+	UpDownCounter_8bit DUT (
+		.reset(reset), 
+		.enable(enable), 
+		.clk(clk), 
+		.count(count)
+	);
+
+	initial begin
+		// Initialize Inputs
+		reset = 0;
+		enable = 0;
+		clk = 0;
+
+			// Initialize Inputs
+		clk = 0;
+		reset = 0;
+		enable = 0;
+
+		// Wait 100 ns for global reset to finish
+		#10;
+
+		reset = 1;
+		enable = 0;
+		
+		#10;
+		reset = 0;
+		enable = 1;
+		
+		
+		#50 
+		reset = 1;
+		#10
+		enable = 0;
+		#30
+		enable = 1;
+		#50 
+		reset = 0;
+		
+		#1000; 
+		$finish
+	end
+	
+	// Provide clock
+	always begin 
+		#10 clk = !clk;
+	end
+      
+endmodule
+
